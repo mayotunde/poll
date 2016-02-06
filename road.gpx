@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx version="1.0" creator="QGIS">
+<trk>
+<name>road</name>
+<url>Digitized in QGIS</url>
+<number>0</number>
+<trkseg>
+<trkpt lat="12.670894872909" lon="7.152187167111">
+</trkpt>
+<trkpt lat="11.350352103745" lon="7.567214894562">
+</trkpt>
+<trkpt lat="10.576891338949" lon="9.095271527451">
+</trkpt>
+<trkpt lat="9.218618776381" lon="9.472569461498">
+</trkpt>
+<trkpt lat="7.633967453385" lon="8.265216072549">
+</trkpt>
+<trkpt lat="7.105750345720" lon="8.453865039572">
+</trkpt>
+<trkpt lat="6.124775717198" lon="9.566893945010">
+</trkpt>
+</trkseg>
+</trk>
+</gpx>
