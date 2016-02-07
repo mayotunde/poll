@@ -5,11 +5,11 @@
 <title>Loading CSV,GPX and KML into Markers using leaflet omnivore</title>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 <script src='http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js'></script>
-<script src='file:///C:/Users/user/Desktop/New folder (3)/leaflet-omnivore-master/leaflet-omnivore.js'></script>
+<script src='https://cdn.rawgit.com/mayotunde/poll/master/leaflet-omnivore.js'></script>
 <link href='http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css' rel='stylesheet' />
 </head>
 <body>
-<div id='map' style='width: 600px;height: 400px'></div>
+<div id='map' style='width: 700px;height: 500px'></div>
 <script>
 var map = L.map('map').setView([9, 7], 3);
 attr = 'map data &copy;<a href="http://mapsnigeriainitiative.wordpress.com">mapsNi</a>,'+'<a href="http://openstreetmap.org">OSM</a>';
@@ -17,11 +17,11 @@ L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: a
 
 
 
-omnivore.csv('Pointdata.csv').addTo(map);
+omnivore.csv('https://cdn.rawgit.com/mayotunde/poll/master/Pointdata.csv').addTo(map);
 
-omnivore.gpx('road.gpx').addTo(map);
+omnivore.gpx('https://github.com/mayotunde/poll/blob/master/road.gpx').addTo(map);
 
-omnivore.kml('poly.kml').addTo(map);
+omnivore.kml('https://cdn.rawgit.com/mayotunde/poll/master/poly.kml').addTo(map);
 
 </script>
 </body>
